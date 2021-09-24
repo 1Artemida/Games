@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap');
+
+* {
+    margin: 0; 
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto Slab', serif;
+    float: center;
+    justify-content: center;
+    align-items: center;
+
+}
+.text {
+    font-weight: 700;
+    font-family: 'Roboto Slab', serif;
+}
+.button .bx  {
+    margin-right: 5px;
+}
+.add-games {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+.button {
+    width: 100px;
+    height: 30px;
+    background: green;
+    font-weight: 700;
+    font-family: 'Roboto Slab', serif;
+    border: none;
+    margin-bottom: 5px;
+}
+.informations {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 35px;
+    border: 1px solid gray;
+    margin-bottom: 5px;
+}
+
+.name-games {
+    width: 430px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    cursor: pointer;
+}
+.year-games {
+    width: 65px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.genre-games {
+    width: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.status-game {
+    font-weight: 700;
+    font-family: 'Roboto Slab', serif;
+    width: 120px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.actions {
+    width: 215px;
+    display: flex;
+    flex-direction: row;
+}
+.btn{
+    width: 100px;
+    height: 30px;
+}
+.pointer {
+    font-weight: 700;
+    font-family: 'Roboto Slab', serif;
+    cursor: pointer;
+}
+.edit {
+    background: #537527;
+    border: none;
+}.delete {
+    background: #7a181f;
+    border: none;
+}
+ .bx {
+     margin: 3px 3px;
+     cursor: pointer;
+ }
+
+ .edit-games {
+    width: 50%;
+    text-align: center;
+ }
+ .delete-games {
+    width: 50%;
+    text-align: center;
+ }
+
+ .modal {
+     display: none;
+     background-color: #C0C0C0;
+     position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 590px;
+    height: 380px;
+    border-radius: 10px;
+ }
+
+ .close {
+    color: #000;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-left: 540px;
+  }
+
+.inputs {
+    font-weight: 700;
+    font-family: 'Roboto Slab', serif;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    border: none;
+    height: 40px;
+    width: 550px;
+}
+.modal-content label {
+    font-weight: 700;
+    margin: 5px;
+    font-family: 'Roboto Slab', serif;
+}
+.modal-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+}
+.managament-buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.managament-buttons button {
+    width: 100px;
+    font-weight: 700;
+    font-family: 'Roboto Slab', serif;
+    height: 35px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+}
+
+.add-modal {
+    display: none;
+    background-color: #C0C0C0;
+     position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 590px;
+    height: 380px;
+    border-radius: 10px;
+}
+
+.add-modal-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+}
+.modal-managament-buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center; 
+}
+.modal-managament-buttons button {
+    width: 100px;
+    font-weight: 700;
+    font-family: 'Roboto Slab', serif;
+    height: 35px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.close-span {
+    color: #000;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 555px;
+}
+.add-modal-container label {
+    font-weight: 700;
+    margin: 5px;
+    font-family: 'Roboto Slab', serif;
+}
+#modal-cancel-id {
+    background-color: #7a181f;
+    border: none;
+}
+#modal-add-id {
+    background-color: #537527;
+    border: none;
+}
+#save-id {
+    background-color: #537527;
+    border: none;
+}
+#cancel-id {
+    background-color: #7a181f;
+    border: none;  
+}

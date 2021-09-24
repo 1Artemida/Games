@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+    <script src="script.js"></script>
+    <title>Promise</title>
+</head>
+<body>
+    <div class="modal">
+        <div class="modal-content">
+            <div class="close-span">
+                <span class="close">x</span></div>
+            <label for="for-name-game">Назва Гри</label>
+        <input class="inputs" type="text" id="name-id" placeholder="Введіть текст щоб змінити назву...">
+        <label for="for-name-game">Рік</label>
+        <input class="inputs" type="text" id="year-id" placeholder="Введіть текст щоб змінити рік...">
+        <label for="for-name-game">Жанр</label>
+        <input class="inputs" type="text" id="genre-id" placeholder="Введіть текст щоб змінити жанр...">
+        <label for="for-name-game">Пройдено?</label>
+        <input class="inputs" type="checkbox" id="status-id">
+        </div>
+        <div class="managament-buttons">
+        <button id="save-id">Зберегти</button>
+        <button id="cancel-id">Відмінити</button>
+        </div>
+    </div>  
+    <div class="add-modal">
+        <div class="add-modal-container">
+            <div class="close-span">
+                <span class="close-add">x</span>
+            </div>
+                <label for="for-name-game">Назва Гри </label>
+                <input class="inputs" type="text" id="add-name-id" placeholder="Додайте назву гри">
+                <label for="for-name-game">Рік</label>
+                <input class="inputs" type="text" id="add-year-id" placeholder="Додайте рік">
+                <label for="for-name-game">Жанр</label>
+                <input class="inputs" type="text" id="add-genre-id" placeholder="Додайте жанр гри">
+                <label for="for-name-game">Пройдено?</label>
+                <input class="inputs" type="checkbox" id="add-status-id">
+        </div>
+        <div class="modal-managament-buttons">
+            <button id="modal-add-id">Додати</button>
+            <button id="modal-cancel-id">Відмінити</button>
+            </div>
+    </div>
+    <div class="container">
+        <div class="add-games">
+        <button class="button pointer" id="add-id"><i class='bx bxs-add-to-queue'></i>Додати</button></div>
+        <div class="grid">
+            <div class="grid-header">
+                <div class="informations">
+                    <div class="name-games"><span class="text">Назва гри</span></div>
+                    <div class="year-games"><span class="text">Рік</span></div>
+                    <div class="genre-games"><span class="text">Жанр</span></div>
+                    <div class="status-game">Пройдено?</div>
+                    <div class="actions">
+                        <div class="edit-games"><i class='bx bxs-edit'></i></div>
+                        <div class="delete-games"><i class='bx bxs-trash'></i></div></div>
+                </div>
+            </div>
+            <div id="grid-body">
+
+            </div>
+            
+    </div>
+</body>
+</html>
